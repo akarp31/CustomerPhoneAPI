@@ -32,16 +32,16 @@ git clone https://github.com/akarp31/customer-phone-api.git
 # Explore Rest APIs
 The app defines following APIs:
 
-Get all phone numbers.
++ Get all phone numbers.
 
-GET /api/v1/phone-numbers
++ + GET /api/v1/phone-numbers
 
-Get all phone numbers for a given customer.
++ Get all phone numbers for a given customer.
 
-GET /api/v1/phone-numbers/{customerId}
++ + GET /api/v1/phone-numbers/{customerId}
 
-Activate a phone number.
++ Activate a phone number.
 
-PUT /api/v1/phone-numbers/{phoneNumber}
++ + PUT /api/v1/phone-numbers/{phoneNumber}
 
 You can test them using postman or any other rest client.
