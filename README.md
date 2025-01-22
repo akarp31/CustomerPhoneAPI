@@ -17,21 +17,25 @@ Maven - 3.x.x
 
   mvn package
   java -jar target/customer-phone-api-1.0.0.jar
-  Alternatively, you can run the app without packaging it using -
   
+  Alternatively, you can run the app without packaging it using -  
   mvn spring-boot:run
+  
   The app will start running at http://localhost:8080.
 
 # Explore Rest APIs
 The app defines following APIs:
 
 Get all phone numbers.
+
 GET /api/v1/phone-numbers
 
-Get all phone numbers for a given customer
+Get all phone numbers for a given customer.
+
 GET /api/v1/phone-numbers/{customerId}
 
-Activate a phone number
+Activate a phone number.
+
 PUT /api/v1/phone-numbers/{phoneNumber}
 
 You can test them using postman or any other rest client.
