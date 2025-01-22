@@ -9,11 +9,13 @@ Java - 17.x.x
 Maven - 3.x.x
 
 # Steps to Setup
-1. Clone the application
+**1. Clone the application**
 
-  git clone https://github.com/akarp31/customer-phone-api.git
+```bash
+git clone https://github.com/akarp31/customer-phone-api.git
+```
 
-2. Build and run the app using maven
+**2. Build and run the app using maven**
 
   ```bash
   mvn package
@@ -21,7 +23,9 @@ Maven - 3.x.x
   ```
   
   Alternatively, you can run the app without packaging it using -  
+   ```bash
   mvn spring-boot:run
+  ```
   
   The app will start running at http://localhost:8080.
 
