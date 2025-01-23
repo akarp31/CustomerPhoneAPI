@@ -1,4 +1,4 @@
-# Phone Numver Rest API
+# Phone Number Rest API
 This is a github repository for a  REST API developed using Spring boot.
 
 Build Restful API for retrieving and activating customer related phone numbers using Spring Boot.
