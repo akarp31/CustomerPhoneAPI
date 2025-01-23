@@ -12,7 +12,7 @@ Maven - 3.x.x
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/akarp31/customer-phone-api.git
+git clone https://github.com/akarp31/phone-number-restapi.git
 ```
 
 **2. Build and run the app using maven**
