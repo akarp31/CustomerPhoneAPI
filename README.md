@@ -1,7 +1,7 @@
 # Phone Number Rest API
 This is a github repository for a  REST API developed using Spring boot.
 
-Build Restful API for retrieving and activating customer related phone numbers using Spring Boot.
+This Restful API has been implemented for retrieving and activating customer related phone numbers using Spring Boot.
 
 # Requirements
 Java - 17.x.x
@@ -34,14 +34,15 @@ The app defines following APIs:
 
 + Get all phone numbers.
 
-+ + GET /api/v1/phone-numbers
++ + GET /api/v1/phoneNumbers
 
 + Get all phone numbers for a given customer.
 
-+ + GET /api/v1/phone-numbers/{customerId}
++ + GET /api/v1/phoneNumbers/{customerId}
 
 + Activate a phone number.
 
-+ + PUT /api/v1/phone-numbers/{phoneNumber}
++ + PUT /api/v1/phoneNumbers/{customerId
+  + Request body should contain the phone number to be activated
 
 You can test them using postman or any other rest client.
