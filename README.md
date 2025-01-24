@@ -19,7 +19,7 @@ git clone https://github.com/akarp31/phone-number-restapi.git
 
   ```bash
   mvn package
-  java -jar target/phonenumberrestapi-0.0.1-SNAPSHOT.jarr
+  java -jar target/phonenumberrestapi-0.0.1-SNAPSHOT.jar
   ```
   
   Alternatively, you can run the app without packaging it using -  
