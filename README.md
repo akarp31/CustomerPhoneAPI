@@ -42,7 +42,11 @@ The app defines following APIs:
 
 + Activate a phone number.
 
-+ + PUT /api/v1/phoneNumbers/{customerId
++ + PUT /api/v1/phoneNumbers/{customerId}
   + Request body should contain the phone number to be activated
 
 You can test them using postman or any other rest client.
+
+# Swagger Documentation
+Documentation for the REST API can be accessed from this location, while the spring boot application is running.
++ http://localhost:8080/swagger-ui/index.html
